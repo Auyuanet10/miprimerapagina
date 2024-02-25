@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <script src="https://kit.fontawesome.com/d6850b5b7c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="logo"><img src="img/casa.png" alt="logo"></a>
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+              </label>
+              <nav class="navbar">
+                <ul class="menu">
+                  <li><a class="navli" href="index.html">Inicio</a></li>
+                  <li><a class="navli" href="#Acerca de mi">Acerca de mí</a></li>
+                  <li><a class="navli" href="#trabajos">Trabajos</a></li>
+                  <li><a class="navli" href="#trabajos">Servicios</a></li>
+                  <li><a class="navli" href="#contacto">Contacto</a></li>
+                </ul>
+              </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="seccion1">
+                <div class="Acerca-de">
+                <h2>Acerca de mi</h2>
+                <p>Bienvenido a mi web</p>
+                <p  class="parrafo1">Me llamo Roberto, me gusta mucho la ciudad de Montevideo. Me encanta comer helado con barquillos y mi gusto favorito es el de Mango. Deseo poder trabajar en el mundo TI.</p>
+            </div>
+            <div class="foto1">
+         <img src="img/goes.jpg" alt="imagen portada">
+            </div>
+            </section>
+            <section class="seccion2">
+        <img src="img/casa2.jpg" alt="carrusel hombre">
+            </section>
+            <h2 class="Trabajos">Trabajos</h2>
+            <section class="seccion3">
+                <div class="parte1">
+                    <img src="img/casa1.jpg" alt="negocios">
+                    <h3>Cursos Online</h3>
+                    <p>En esta seccion aprenderemos todo sobre los negocios inmobiliarios</p>
+                    <p><a href="https://ardittipropiedades.com.uy/">Leer mas</a></p>
+                </div>
+                <div class="parte1">
+                    <img src="img/casa11.jpg" alt="negocios">
+                    <h3>Cursos Online</h3>
+                    <p>Veremos como llevar a cabo negocaciones atadas a las necesidades de los clientes.</p>
+                    <p><a href="https://ardittipropiedades.com.uy/">Leer mas</a></p>
+                </div>
+                <div class="parte1">
+                    <img src="img/casa111.gif" alt="negocios">
+                    <h3>Cursos Online</h3>
+                    <p>En esta seccion  se explicara con captar potenciales clientes que quieran vender y/o alquilar sus propiedades.</p>
+                    <p><a href="https://ardittipropiedades.com.uy/">Leer mas</a></p>
+                </div>
+            </section>
+        </main>
+        <footer class="form-header">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+      
+            <form action="" method="get" class="formulario" id="form"> <div class="form-row">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="pepe@gmail.com"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+            <div class="form-row">
+              <button>Enviar</button>
+            </div>
+            <p class="alertas" id="alertas"></p>
+          </form>
+          </footer>
+          <script src="script3.js" defer></script>
+        <footer class="footer">
+            <h3 class="titulo">Nuestras redes</h3>
+           <a href="https://www.whatsapp.com/?lang=es_LA"> <img src="img/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/?locale=es_LA"><img src="img/facebook.png" alt="Facebook"></a>
+           <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit"><img src="img/linkedin.png" alt="Linkedin"></a>
+        </footer>
+    </div>
+</body>
+</html>
